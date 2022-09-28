@@ -1,20 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package Main;
 
-/**
- *
- * @author PC
- */
-public class Main {
+import Libreria.ManipularCSV;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Main{
     public static void main(String[] args) {
-        // TODO code application logic here
+        ManipularCSV archivo = new ManipularCSV();//crear objeto
+        archivo.leerArchivo("C:\\Users\\PC\\Desktop\\algoritmos carpeta\\PRUEBAS_COVID_2.xlsx");
+        archivo.imprimirLinea();
     }
-    
 }
+
+
+
