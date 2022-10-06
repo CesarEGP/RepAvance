@@ -4,7 +4,7 @@
  */
 package Background;
 
-import Formularios.VentanaPrincipal;
+import Formularios.*;
 
 /**
  *
